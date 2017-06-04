@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD76A8691EE279F50062186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD76A8681EE279F50062186B /* main.m */; };
+		FD76A86C1EE279F50062186B /* ZYYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD76A86B1EE279F50062186B /* ZYYAppDelegate.m */; };
+		FD76A8721EE279F50062186B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD76A8701EE279F50062186B /* Main.storyboard */; };
+		FD76A8741EE279F50062186B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD76A8731EE279F50062186B /* Assets.xcassets */; };
+		FD76A8771EE279F50062186B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD76A8751EE279F50062186B /* LaunchScreen.storyboard */; };
+		FD76A8821EE279F50062186B /* DefineTabbar_KVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD76A8811EE279F50062186B /* DefineTabbar_KVCTests.m */; };
+		FD76A88D1EE279F50062186B /* DefineTabbar_KVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD76A88C1EE279F50062186B /* DefineTabbar_KVCUITests.m */; };
+		FDFC7DB31EE3BD7700AFE09C /* ZYYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DB21EE3BD7700AFE09C /* ZYYTabBarViewController.m */; };
+		FDFC7DB61EE3BD8900AFE09C /* ZYYOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DB51EE3BD8900AFE09C /* ZYYOneViewController.m */; };
+		FDFC7DB91EE3BD9400AFE09C /* ZYYTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DB81EE3BD9400AFE09C /* ZYYTwoViewController.m */; };
+		FDFC7DBC1EE3BDA100AFE09C /* ZYYThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DBB1EE3BDA100AFE09C /* ZYYThreeViewController.m */; };
+		FDFC7DBF1EE3BDAB00AFE09C /* ZYYFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DBE1EE3BDAB00AFE09C /* ZYYFourViewController.m */; };
+		FDFC7DC21EE3BDB600AFE09C /* ZYYMiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DC11EE3BDB600AFE09C /* ZYYMiddleViewController.m */; };
+		FDFC7DC51EE3BE3700AFE09C /* ZYYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFC7DC41EE3BE3700AFE09C /* ZYYTabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD76A87E1EE279F50062186B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD76A85C1EE279F50062186B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD76A8631EE279F50062186B;
+			remoteInfo = DefineTabbar_KVC;
+		};
+		FD76A8891EE279F50062186B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD76A85C1EE279F50062186B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD76A8631EE279F50062186B;
+			remoteInfo = DefineTabbar_KVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD76A8641EE279F50062186B /* DefineTabbar_KVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DefineTabbar_KVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD76A8681EE279F50062186B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD76A86A1EE279F50062186B /* ZYYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYYAppDelegate.h; sourceTree = "<group>"; };
+		FD76A86B1EE279F50062186B /* ZYYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYYAppDelegate.m; sourceTree = "<group>"; };
+		FD76A8711EE279F50062186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD76A8731EE279F50062186B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD76A8761EE279F50062186B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD76A8781EE279F50062186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD76A87D1EE279F50062186B /* DefineTabbar_KVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefineTabbar_KVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD76A8811EE279F50062186B /* DefineTabbar_KVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefineTabbar_KVCTests.m; sourceTree = "<group>"; };
+		FD76A8831EE279F50062186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD76A8881EE279F50062186B /* DefineTabbar_KVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DefineTabbar_KVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD76A88C1EE279F50062186B /* DefineTabbar_KVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefineTabbar_KVCUITests.m; sourceTree = "<group>"; };
+		FD76A88E1EE279F50062186B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFC7DB11EE3BD7700AFE09C /* ZYYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYTabBarViewController.h; sourceTree = "<group>"; };
+		FDFC7DB21EE3BD7700AFE09C /* ZYYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYTabBarViewController.m; sourceTree = "<group>"; };
+		FDFC7DB41EE3BD8900AFE09C /* ZYYOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYOneViewController.h; sourceTree = "<group>"; };
+		FDFC7DB51EE3BD8900AFE09C /* ZYYOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYOneViewController.m; sourceTree = "<group>"; };
+		FDFC7DB71EE3BD9400AFE09C /* ZYYTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYTwoViewController.h; sourceTree = "<group>"; };
+		FDFC7DB81EE3BD9400AFE09C /* ZYYTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYTwoViewController.m; sourceTree = "<group>"; };
+		FDFC7DBA1EE3BDA100AFE09C /* ZYYThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYThreeViewController.h; sourceTree = "<group>"; };
+		FDFC7DBB1EE3BDA100AFE09C /* ZYYThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYThreeViewController.m; sourceTree = "<group>"; };
+		FDFC7DBD1EE3BDAB00AFE09C /* ZYYFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYFourViewController.h; sourceTree = "<group>"; };
+		FDFC7DBE1EE3BDAB00AFE09C /* ZYYFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYFourViewController.m; sourceTree = "<group>"; };
+		FDFC7DC01EE3BDB600AFE09C /* ZYYMiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYMiddleViewController.h; sourceTree = "<group>"; };
+		FDFC7DC11EE3BDB600AFE09C /* ZYYMiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYMiddleViewController.m; sourceTree = "<group>"; };
+		FDFC7DC31EE3BE3700AFE09C /* ZYYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYYTabBar.h; sourceTree = "<group>"; };
+		FDFC7DC41EE3BE3700AFE09C /* ZYYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYYTabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD76A8611EE279F50062186B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A87A1EE279F50062186B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A8851EE279F50062186B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD76A85B1EE279F50062186B = {
+			isa = PBXGroup;
+			children = (
+				FD76A8661EE279F50062186B /* DefineTabbar_KVC */,
+				FD76A8801EE279F50062186B /* DefineTabbar_KVCTests */,
+				FD76A88B1EE279F50062186B /* DefineTabbar_KVCUITests */,
+				FD76A8651EE279F50062186B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD76A8651EE279F50062186B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD76A8641EE279F50062186B /* DefineTabbar_KVC.app */,
+				FD76A87D1EE279F50062186B /* DefineTabbar_KVCTests.xctest */,
+				FD76A8881EE279F50062186B /* DefineTabbar_KVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD76A8661EE279F50062186B /* DefineTabbar_KVC */ = {
+			isa = PBXGroup;
+			children = (
+				FD76A86A1EE279F50062186B /* ZYYAppDelegate.h */,
+				FD76A86B1EE279F50062186B /* ZYYAppDelegate.m */,
+				FDFC7DB11EE3BD7700AFE09C /* ZYYTabBarViewController.h */,
+				FDFC7DB21EE3BD7700AFE09C /* ZYYTabBarViewController.m */,
+				FDFC7DC31EE3BE3700AFE09C /* ZYYTabBar.h */,
+				FDFC7DC41EE3BE3700AFE09C /* ZYYTabBar.m */,
+				FDFC7DB41EE3BD8900AFE09C /* ZYYOneViewController.h */,
+				FDFC7DB51EE3BD8900AFE09C /* ZYYOneViewController.m */,
+				FDFC7DB71EE3BD9400AFE09C /* ZYYTwoViewController.h */,
+				FDFC7DB81EE3BD9400AFE09C /* ZYYTwoViewController.m */,
+				FDFC7DBA1EE3BDA100AFE09C /* ZYYThreeViewController.h */,
+				FDFC7DBB1EE3BDA100AFE09C /* ZYYThreeViewController.m */,
+				FDFC7DBD1EE3BDAB00AFE09C /* ZYYFourViewController.h */,
+				FDFC7DBE1EE3BDAB00AFE09C /* ZYYFourViewController.m */,
+				FDFC7DC01EE3BDB600AFE09C /* ZYYMiddleViewController.h */,
+				FDFC7DC11EE3BDB600AFE09C /* ZYYMiddleViewController.m */,
+				FD76A8701EE279F50062186B /* Main.storyboard */,
+				FD76A8731EE279F50062186B /* Assets.xcassets */,
+				FD76A8751EE279F50062186B /* LaunchScreen.storyboard */,
+				FD76A8781EE279F50062186B /* Info.plist */,
+				FD76A8671EE279F50062186B /* Supporting Files */,
+			);
+			path = DefineTabbar_KVC;
+			sourceTree = "<group>";
+		};
+		FD76A8671EE279F50062186B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD76A8681EE279F50062186B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD76A8801EE279F50062186B /* DefineTabbar_KVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD76A8811EE279F50062186B /* DefineTabbar_KVCTests.m */,
+				FD76A8831EE279F50062186B /* Info.plist */,
+			);
+			path = DefineTabbar_KVCTests;
+			sourceTree = "<group>";
+		};
+		FD76A88B1EE279F50062186B /* DefineTabbar_KVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD76A88C1EE279F50062186B /* DefineTabbar_KVCUITests.m */,
+				FD76A88E1EE279F50062186B /* Info.plist */,
+			);
+			path = DefineTabbar_KVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD76A8631EE279F50062186B /* DefineTabbar_KVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD76A8911EE279F50062186B /* Build configuration list for PBXNativeTarget "DefineTabbar_KVC" */;
+			buildPhases = (
+				FD76A8601EE279F50062186B /* Sources */,
+				FD76A8611EE279F50062186B /* Frameworks */,
+				FD76A8621EE279F50062186B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DefineTabbar_KVC;
+			productName = DefineTabbar_KVC;
+			productReference = FD76A8641EE279F50062186B /* DefineTabbar_KVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD76A87C1EE279F50062186B /* DefineTabbar_KVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD76A8941EE279F50062186B /* Build configuration list for PBXNativeTarget "DefineTabbar_KVCTests" */;
+			buildPhases = (
+				FD76A8791EE279F50062186B /* Sources */,
+				FD76A87A1EE279F50062186B /* Frameworks */,
+				FD76A87B1EE279F50062186B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD76A87F1EE279F50062186B /* PBXTargetDependency */,
+			);
+			name = DefineTabbar_KVCTests;
+			productName = DefineTabbar_KVCTests;
+			productReference = FD76A87D1EE279F50062186B /* DefineTabbar_KVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD76A8871EE279F50062186B /* DefineTabbar_KVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD76A8971EE279F50062186B /* Build configuration list for PBXNativeTarget "DefineTabbar_KVCUITests" */;
+			buildPhases = (
+				FD76A8841EE279F50062186B /* Sources */,
+				FD76A8851EE279F50062186B /* Frameworks */,
+				FD76A8861EE279F50062186B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD76A88A1EE279F50062186B /* PBXTargetDependency */,
+			);
+			name = DefineTabbar_KVCUITests;
+			productName = DefineTabbar_KVCUITests;
+			productReference = FD76A8881EE279F50062186B /* DefineTabbar_KVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD76A85C1EE279F50062186B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZYY;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "莹莹张";
+				TargetAttributes = {
+					FD76A8631EE279F50062186B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FD76A87C1EE279F50062186B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD76A8631EE279F50062186B;
+					};
+					FD76A8871EE279F50062186B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD76A8631EE279F50062186B;
+					};
+				};
+			};
+			buildConfigurationList = FD76A85F1EE279F50062186B /* Build configuration list for PBXProject "DefineTabbar_KVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD76A85B1EE279F50062186B;
+			productRefGroup = FD76A8651EE279F50062186B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD76A8631EE279F50062186B /* DefineTabbar_KVC */,
+				FD76A87C1EE279F50062186B /* DefineTabbar_KVCTests */,
+				FD76A8871EE279F50062186B /* DefineTabbar_KVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD76A8621EE279F50062186B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD76A8771EE279F50062186B /* LaunchScreen.storyboard in Resources */,
+				FD76A8741EE279F50062186B /* Assets.xcassets in Resources */,
+				FD76A8721EE279F50062186B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A87B1EE279F50062186B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A8861EE279F50062186B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD76A8601EE279F50062186B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD76A86C1EE279F50062186B /* ZYYAppDelegate.m in Sources */,
+				FDFC7DB31EE3BD7700AFE09C /* ZYYTabBarViewController.m in Sources */,
+				FDFC7DBF1EE3BDAB00AFE09C /* ZYYFourViewController.m in Sources */,
+				FDFC7DC51EE3BE3700AFE09C /* ZYYTabBar.m in Sources */,
+				FDFC7DBC1EE3BDA100AFE09C /* ZYYThreeViewController.m in Sources */,
+				FDFC7DB61EE3BD8900AFE09C /* ZYYOneViewController.m in Sources */,
+				FD76A8691EE279F50062186B /* main.m in Sources */,
+				FDFC7DC21EE3BDB600AFE09C /* ZYYMiddleViewController.m in Sources */,
+				FDFC7DB91EE3BD9400AFE09C /* ZYYTwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A8791EE279F50062186B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD76A8821EE279F50062186B /* DefineTabbar_KVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD76A8841EE279F50062186B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD76A88D1EE279F50062186B /* DefineTabbar_KVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD76A87F1EE279F50062186B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD76A8631EE279F50062186B /* DefineTabbar_KVC */;
+			targetProxy = FD76A87E1EE279F50062186B /* PBXContainerItemProxy */;
+		};
+		FD76A88A1EE279F50062186B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD76A8631EE279F50062186B /* DefineTabbar_KVC */;
+			targetProxy = FD76A8891EE279F50062186B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD76A8701EE279F50062186B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD76A8711EE279F50062186B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD76A8751EE279F50062186B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD76A8761EE279F50062186B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD76A88F1EE279F50062186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD76A8901EE279F50062186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD76A8921EE279F50062186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DefineTabbar_KVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YYZ.DefineTabbar-KVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD76A8931EE279F50062186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DefineTabbar_KVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YYZ.DefineTabbar-KVC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD76A8951EE279F50062186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DefineTabbar_KVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YYZ.DefineTabbar-KVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DefineTabbar_KVC.app/DefineTabbar_KVC";
+			};
+			name = Debug;
+		};
+		FD76A8961EE279F50062186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DefineTabbar_KVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YYZ.DefineTabbar-KVCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DefineTabbar_KVC.app/DefineTabbar_KVC";
+			};
+			name = Release;
+		};
+		FD76A8981EE279F50062186B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DefineTabbar_KVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YYZ.DefineTabbar-KVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DefineTabbar_KVC;
+			};
+			name = Debug;
+		};
+		FD76A8991EE279F50062186B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DefineTabbar_KVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YYZ.DefineTabbar-KVCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DefineTabbar_KVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD76A85F1EE279F50062186B /* Build configuration list for PBXProject "DefineTabbar_KVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76A88F1EE279F50062186B /* Debug */,
+				FD76A8901EE279F50062186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD76A8911EE279F50062186B /* Build configuration list for PBXNativeTarget "DefineTabbar_KVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76A8921EE279F50062186B /* Debug */,
+				FD76A8931EE279F50062186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD76A8941EE279F50062186B /* Build configuration list for PBXNativeTarget "DefineTabbar_KVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76A8951EE279F50062186B /* Debug */,
+				FD76A8961EE279F50062186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD76A8971EE279F50062186B /* Build configuration list for PBXNativeTarget "DefineTabbar_KVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD76A8981EE279F50062186B /* Debug */,
+				FD76A8991EE279F50062186B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD76A85C1EE279F50062186B /* Project object */;
+}
